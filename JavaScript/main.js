@@ -1,11 +1,42 @@
 
+function clicou() {
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+   // console.log (document.getElementById("agradecimento"));
+    //alert ("Obrigado por clicar");
+
+}
+
+function redirecionar(){
+    window.open ("globoesporte.globo.com");
+   // window.location.href = "globoesporte.globo.com";
+}
+
+function trocar(elemento) {
+    //document.getElementById ("mousemove").innerHTML = "Obrigado por passa o mouse"
+    elemento.innerHTML = "Obrigado por passar o mouse.";
+    //alert ("trocar texto");
+}
+
+function voltar(elemento){
+    //document.getElementById ("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load() {
+    alert ("Pagina carregada");
+}
+
+function funcaoChange(){
+    console.log (elemento.value);
+}
+
 /*function soma (n1,n2) {
 return n1+n2 ;    
 }
 alert(soma (5,10));
 */
 
-function validaidade(idade){
+/*function validaidade(idade){
     var validar;    
     if (idade >= 18){
         validar = true 
@@ -17,6 +48,7 @@ function validaidade(idade){
 
 var idade = prompt ("Qual sua idade ? ");
 console.log(validaidade (idade));
+*/
 
 
 
