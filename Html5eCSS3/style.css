@@ -1,5 +1,5 @@
 body {
-    background: #b7d5e5;
+    background: #d3d3d3;
     font-family:verdana ;
     max-width: 900px;
     margin: auto;
@@ -74,7 +74,15 @@ a {
     width: 100px;
 }
 
-.miniphoto {
-    width: 26px;
+.miniphoto1 {
+    width: 23px;
     border-radius: 30px;
+}
+.miniphoto2 {
+    width: 22px;
+    border-radius: 30px;
+}
+.miniphoto3 {
+    width: 25px;
+    border-radius: 26px;
 }
