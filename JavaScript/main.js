@@ -1,4 +1,5 @@
 
+/*
 function clicou() {
     document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
    // console.log (document.getElementById("agradecimento"));
@@ -28,7 +29,7 @@ function load() {
 
 function funcaoChange(){
     console.log (elemento.value);
-}
+} */
 
 /*function soma (n1,n2) {
 return n1+n2 ;    
